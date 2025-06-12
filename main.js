@@ -3,7 +3,7 @@ document.getElementById("sroiForm").addEventListener("submit", function(e) {
   const formData = new FormData(this);
   const data = Object.fromEntries(formData);
 
-  fetch("https://script.google.com/macros/s/AKfycbx6JBCzbQWQyUTfbiV6N87sEaVrC0btuB7R38i1kncZg_q89Tq8O6itmF3LgTvtOaVzPA/exec",  {
+  fetch("https://script.google.com/macros/s/AKfycbx4X3jca11FNBrcTDKpaIlv4wHL48OAXnm1eGXi9AY24pUq60iSdjxPbujBsPRxf3STDQ/exec",  {
     method: "POST",
     body: JSON.stringify(data),
     headers: { "Content-Type": "application/json" }
