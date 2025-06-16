@@ -4,7 +4,7 @@ document.getElementById("sroiForm").addEventListener("submit", function(e) {
   const data = Object.fromEntries(formData);
 
   // ⚠️ เปลี่ยน URL เป็นของคุณเองหลัง deploy GAS
-  const GAS_URL = "https://script.google.com/macros/s/your-gas-url/exec"; 
+  const GAS_URL = "https://script.google.com/macros/s/AKfycbwjvPye8llbIvDWprImojhZMIRneFuNjSwADJYnPPhuLKFQj6NNgw8-hi_XaBrJVtCptw/exec"; 
 
   fetch(GAS_URL, {
     method: "POST",
